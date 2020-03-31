@@ -25,9 +25,9 @@ print(bw)
 print("Ejercicio #3")
 #Ejercicio 3: Escribir un for para buscar el máximo de la lista e imprimirlo
 lista=[44,11,15,29,53,12,30]
-for i in range(len(lista)):
+for i in lista:
     for num in lista:
-        if num > lista[i]:
+        if num > i:
             maximo = num
 
 
